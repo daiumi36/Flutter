@@ -64,4 +64,20 @@ void main() {
   queue.printQueue(); 
 }
 */
+/*
+class ScreenSize {
+  static double screenWidth = 375.0;
+  static double referenceWidth = 375.0; 
 
+  static double get scale => screenWidth / referenceWidth;
+}
+extension SizeExtension on num {
+  double get w => this * ScreenSize.scale;
+}
+
+void main() {
+  final h = 64.w;
+  print("Chiều rộng đã được điều chỉnh: $h");
+}
+
+*/
