@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           title: const Text('Bực hết cả mình'),
         ),
         body: Center(
-          child: Container(
+          child: SizedBox(
             width: 300,
             height: 300,
             child: Stack(
