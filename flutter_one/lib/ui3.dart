@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Vietnam Flag'),
+          title: const Text('Vietnam'),
           backgroundColor: Colors.red,
         ),
         body: const Center(
@@ -30,13 +30,13 @@ class VietnamFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 360, 
+      width: 360,
       height: 200,
       color: Colors.red,
       child: const Center(
         child: Icon(
-          Icons.star, 
-          color: Colors.yellow, 
+          Icons.star,
+          color: Colors.yellow,
           size: 150,
         ),
       ),

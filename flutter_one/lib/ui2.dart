@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
-          title: const Text('Challenge Screen'),
+          title: const Text('Home'),
           backgroundColor: Colors.teal,
         ),
         body: const ChallengeCard(),

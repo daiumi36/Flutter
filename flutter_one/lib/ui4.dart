@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Recipe Layout'),
+          title: const Text('Home'),
         ),
         body: const RecipeCard(),
       ),
