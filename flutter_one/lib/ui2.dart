@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey[100], // Nền ngoài sáng hơn
+        backgroundColor: Colors.grey[100],
         appBar: AppBar(
           title: const Text('Challenge Screen'),
-          backgroundColor: Colors.teal, // Màu thanh công cụ
+          backgroundColor: Colors.teal,
         ),
         body: const ChallengeCard(),
       ),
@@ -30,7 +30,6 @@ class ChallengeCard extends StatelessWidget {
     return Center(
       child: Stack(
         children: [
-          // Background container with color
           Container(
             width: 320,
             height: 240,
@@ -95,7 +94,7 @@ class ChallengeCard extends StatelessWidget {
                     Expanded(
                       child: Text(
                         'Take this lesson to earn a new milestone',
-                        style: TextStyle(fontSize: 16, color: Colors.black54),
+                        style: TextStyle(fontSize: 11, color: Colors.black54),
                       ),
                     ),
                   ],
