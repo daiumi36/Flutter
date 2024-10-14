@@ -41,7 +41,7 @@ class KenoStatisticsScreen extends StatelessWidget {
               style: TextStyle(fontSize: 18.0),
             ),
             const SizedBox(height: 16.0),
-            ...statistic.map((keno) => _buildKenoItem(keno)).toList(),
+            ...statistic.map((keno) => _buildKenoItem(keno)),
           ],
         ),
       ),
